@@ -5,8 +5,9 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import com.example.mapactivityapp.model.Place
-import io.reactivex.Completable
-import io.reactivex.Flowable
+import io.reactivex.rxjava3.core.Completable
+import io.reactivex.rxjava3.core.Flowable
+
 
 @Dao
 interface PlaceDao {

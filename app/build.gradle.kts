@@ -49,7 +49,8 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.gms:play-services-maps:18.1.0")
-    implementation("io.reactivex.rxjava3:rxandroid:3.1.6")
+    implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
+    implementation("io.reactivex.rxjava3:rxjava:3.1.5")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -59,10 +60,10 @@ dependencies {
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
 // To use Kotlin Extensions and Coroutines support for Room
-    implementation("androidx.room:room-ktx:$room_version")
+    //implementation("androidx.room:room-ktx:$room_version")
 
 // optional - RxJava3 support for Room
-    implementation("androidx.room:room-rxjava3:$room_version")
+    //implementation("androidx.room:room-rxjava3:$room_version")
 
 
 

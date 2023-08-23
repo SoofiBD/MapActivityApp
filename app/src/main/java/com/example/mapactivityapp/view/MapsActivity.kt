@@ -24,9 +24,10 @@ import com.example.mapactivityapp.model.Place
 import com.example.mapactivityapp.roomdb.PlaceDao
 import com.example.mapactivityapp.roomdb.PlaceDatabase
 import com.google.android.material.snackbar.Snackbar
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMapLongClickListener {
 
